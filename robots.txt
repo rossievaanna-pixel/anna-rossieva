@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rossievaanna-pixel.github.io/anna-rossieva/sitemap.xml
