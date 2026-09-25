@@ -562,6 +562,11 @@
     gap: 1.75rem;
   }
 
+  .card-grid.card-grid--single {
+    grid-template-columns: 1fr;
+    max-width: 40rem;
+  }
+
   .card {
     border-radius: var(--radius-card);
     padding: clamp(1.75rem, 3vw, 2.5rem);
@@ -830,12 +835,12 @@
           <a class="btn-primary" href="https://telegram.me/rossieva" target="_blank" rel="noopener">Записаться&nbsp;→</a>
         </div>
         <div class="pricing-card">
-          <h3>Разовая сессия · 60&nbsp;минут · 5&nbsp;000&nbsp;₽</h3>
+          <h3>Разовая сессия · 60&nbsp;минут · 6&nbsp;000&nbsp;₽</h3>
           <p>Когда есть конкретный вопрос, в котором хочется разобраться быстро и по существу.</p>
           <a class="btn-primary" href="https://telegram.me/rossieva" target="_blank" rel="noopener">Записаться&nbsp;→</a>
         </div>
         <div class="pricing-card">
-          <h3>Программа · 10&nbsp;сессий · 40&nbsp;000&nbsp;₽</h3>
+          <h3>Программа · 10&nbsp;сессий · 50&nbsp;000&nbsp;₽</h3>
           <p>Для глубокой работы: когда за одним вопросом стоит несколько, и важнее разобраться, чем быстро закрыть тему.</p>
           <a class="btn-primary" href="https://telegram.me/rossieva" target="_blank" rel="noopener">Записаться&nbsp;→</a>
         </div>
@@ -850,18 +855,13 @@
     <div class="container">
       <div class="section-head">
         <h2>Кроме сессий</h2>
-        <p class="lede beyond-sessions__intro">Есть темы, в которых я работаю особенно глубоко. Одна из них: токсичные системы на работе. Как их распознать, как сохранить себя и как уйти с достоинством. Об этом моя книга и комикс «Ничего личного».</p>
+        <p class="lede beyond-sessions__intro">Есть темы, в которых я работаю особенно глубоко. Одна из них: токсичные системы на работе. Как их распознать, как сохранить себя и как уйти с достоинством. Об этом моя книга.</p>
       </div>
-      <div class="card-grid">
+      <div class="card-grid card-grid--single">
         <div class="card card--a">
           <h3>Книга «Не сходишь с ума»</h3>
           <p>История и метод: как устроены токсичные рабочие системы, почему из них так трудно уйти и как выйти, сохранив себя. Основана на реальном опыте, моём и моих клиентов.</p>
           <a class="btn-text" href="book.html">Читать первую главу&nbsp;→</a>
-        </div>
-        <div class="card card--b">
-          <h3>Комикс «Ничего личного»</h3>
-          <p>Короткие иллюстрированные сюжеты о жизни в офисе: узнаваемые ситуации и разбор, что происходит и как можно иначе. Без осуждения, с юмором и бережностью.</p>
-          <span class="tag-soon">Скоро</span>
         </div>
       </div>
     </div>
@@ -903,7 +903,7 @@
         <div class="fine-print">20&nbsp;минут, бесплатно, без обязательств</div>
       </div>
       <div class="divider final-cta__divider">· · ·</div>
-      <p class="final-cta__closing">Если пока не готовы к разговору, можно начать с книги или просто побыть рядом с этими историями. В своём темпе.</p>
+      <p class="final-cta__closing">Если пока не готовы к разговору, можно начать с книги. В своём темпе.</p>
     </div>
   </section>
 
